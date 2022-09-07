@@ -9,9 +9,6 @@ function ligar (){
 function desligar (){
     lamp.src = './img/lampada.jpg'
 }
-
-
-
 lampOn.addEventListener('click', ligar);
 lampOff.addEventListener('click', desligar);
 
